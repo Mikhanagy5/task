@@ -1,0 +1,55 @@
+*html{
+
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+body{
+    /* margin:0px ; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(18, 2, 37);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section2{
+    background-image: url(/image-header-mobile.jpg);
+    background-position:center ;
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    background-color: rgb(202, 43, 226);
+    background-blend-mode:multiply ;
+    width: 50%;
+    
+}
+h1{
+    color: #f6f5f5;
+    font-size: 35px;
+}
+.nums{
+    display: flex;
+    justify-content: space-between;
+    margin-right:40px;
+}
+.home{
+    display: flex;
+    width: 80%;
+    height: 60vh;
+    margin: auto;  
+    border: solid  none;
+    border-radius:5px;
+}p{
+    color: rgb(187, 171, 189);
+}
+span{
+    color: rgb(238, 0, 255);
+}
+h3{
+    color: white;
+}section{
+    background-color: rgb(49, 7, 89);
+    width: 50%;
+    padding: 5%;
+    padding-right: 5%;
+    
+}
